@@ -3,19 +3,11 @@ import AddNewTodo from "./AddNewTodo";
 import EditModal from "./EditModal";
 import SingleTodo from "./SingleTodo";
 
-
 type TodoInterface = {
     id: Number,
     text: string,
     done: boolean,
 };
-// interface TopCategoriesProps {
-//   data: Array<Type>;
-// }
-// interface Type {
-//   category: string;
-//   percentage: number;
-// }
 
 type TodoListProps = {
   todos : Array<TodoInterface>;

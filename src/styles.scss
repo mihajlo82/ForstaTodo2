@@ -60,6 +60,7 @@ ul.todoList {
   padding: 10px;
   margin-left: 20px;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 .delete{
@@ -68,6 +69,7 @@ ul.todoList {
   padding: 10px;
   margin-left: 10px;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 .todoItem{
@@ -166,5 +168,4 @@ ul.todoList {
     padding: 10px;
     display: flex;
   }
-
 }

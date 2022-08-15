@@ -8,22 +8,14 @@ type addInterface = {
 
 const AddNewTodo = ({ setEditing, setShowEditModal }: addInterface) => {
 
-  const buttonHandler = () => {
-  //  event.preventDefault();
-//
-   // const button: HTMLButtonElement = event.currentTarget;
-    setEditing(false);
-    setShowEditModal(true);
-  };
-
-  return (
-    <section className="addWrapp" onClick={buttonHandler}>
+ return (
+    <section className="addWrapp">
       <AiOutlinePlusSquare 
-      //  style={{ fontSize: "26px", marginLeft: "4px" }}
-        // onClick={():void => {
-        //   setEditing(false);
-        //   setShowEditModal(true);
-        // }}
+        style={{ fontSize: "26px", marginLeft: "4px", cursor:'pointer' }}
+        onClick={():void => {
+          setEditing(false);
+          setShowEditModal(true);
+        }}
       />
     </section>
   );
